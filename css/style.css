@@ -1,85 +1,91 @@
 /* Estilos generales */
   
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  html{
-    scroll-behavior: smooth;
-  }
+html{
+  scroll-behavior: smooth;
+}
 
-  body{
-    font-family: serif;
-  }
+body{
+  font-family: serif;
+}
 
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
   
-  h1 {
-    font-size: 2.5rem;
-    font-family: 'Rubik Dirt', cursive;
-  }
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', cursive;
+}
   
-  .seccion-oscura {
-    color: white;
-    background-color: #242424;
-  }
+.seccion-oscura {
+  color: white;
+  background-color: #242424;
+}
   
-  .seccion-clara {
-    color: black;
-    background-color: white;
-  }
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
   
-  .seccion-titulo {
-    font-size: 2rem;
-    padding: 15px 0;
-    font-family: 'Rubik Dirt', cursive;
-    text-align: center;
-  }
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+  text-align: center;
+  font-size: 40PX;
+}
   
-  .seccion-descripcion {
-    font-size: 1.2rem;
-    color: #584e4e;
-  }
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
   
-  .seccion-texto {
-    font-size: 1.2rem;
-  }
+.seccion-texto {
+  font-size: 1.2rem;
+}
   
-  .btn-info {
-    font-size: 1.1rem;
-    margin: 20px;
-  }
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
   
-  .texto-negro {
-    color: black;
-  }
+.texto-negro {
+  color: black;
+}
   
-  .texto-blanco {
-    color: white;
-  }
+.texto-blanco {
+  color: white;
+}
 
-  .btn{
-    background-color: white;
-    font-family: 'Rubik Dirt', cursive;
-    color: black;
-  }
-  .btn:hover{
-    background-color: black;
-    color: white;
-  }
+.btn{
+  background-color: white;
+  font-family: 'Rubik Dirt', cursive;
+  color: black;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
 
 /* Barra de navegacion */
-
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  position: absolute;
+  width: 100%;
+  color: transparent;
+}
+.navbar-toggler{
+  color: white;
+  background-color: white;
 }
 .navbar-collapse {
   align-items: center;
@@ -88,36 +94,49 @@
 .navbar-collapse li{
   padding-left: 25px;
   padding-right: 25px;
-  text-decoration: none;
 }
-
+.navbar-collapse li a{
+  text-decoration: none;
+  color: ghostwhite;
+  font-weight: bold;
+  font-family: Helvetica;
+}
 /* Seccion Hero*/
 .hero-principal{
-  width: 95%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 .hero-house p{
   font-family: Helvetica;
 }
 .hero-inferior{
-  width: 95%;
+  width: 100%;
 }
 
 /* Menu */
+.titulo{
+  padding-top: 20px;
+}
 .menu-multiple{
   width: 100%;
   color: black;
   text-align: center;
-  font-size: 1.5em;
   font-weight: bold;
-  font-family: Verdana;
+  font-family: 'Caveat', cursive;
   cursor: pointer;
-  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.menu-multiple a{
+  font-size: 30px;
+}
+.contenedor .badge{
+  background: radial-gradient(#949494, #000);
 }
 .menu-multiple .contenedor{
   align-content: center;
   width: 100%;
 }
-
 .badge {
   font-size: 20px;
   font-weight: bold;
@@ -234,3 +253,4 @@ footer {
   color: #aeaeae;
   padding: 20px;
 }
+
