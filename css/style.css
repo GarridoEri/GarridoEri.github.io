@@ -275,4 +275,7 @@ footer {
     font-family: Helvetica;
     font-size: 1.1rem;
   }
+  html{
+    width: 100%;
+  }
 }
