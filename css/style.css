@@ -105,7 +105,9 @@ h1 {
   width: 100%;
   display: flex;
 }
-
+.hero-house{
+  background-color:rgb(116, 115, 115);
+}
 .hero-house p{
   font-family: Helvetica;
 }
@@ -263,4 +265,14 @@ footer {
   font-size: 15px;
   color: #aeaeae;
   padding: 20px;
+}
+
+@media screen and (max-width: 800px){
+  .hero-house h1{
+    font-size: 1.5rem;
+  }
+  .hero-house p{
+    font-family: Helvetica;
+    font-size: 1.1rem;
+  }
 }
